@@ -32,7 +32,7 @@ public class Library {
         System.out.println();
 
         System.out.println("Demonstration of overloading methods \"takeBook\"");
-
+        System.out.println();
         arrayReaders[0].takeBook(arrayBooks[0], arrayBooks[1]);
         System.out.println();
         arrayReaders[1].takeBook(arrayBooks[3].getTitle(), arrayBooks[4].getTitle());
@@ -41,7 +41,7 @@ public class Library {
         System.out.println();
 
         System.out.println("Demonstration of overloading methods \"returnBook\"");
-
+        System.out.println();
         arrayReaders[0].returnBook(arrayBooks[2], arrayBooks[3]);
         System.out.println();
         arrayReaders[1].returnBook(arrayBooks[3].getTitle(), arrayBooks[4].getTitle());
